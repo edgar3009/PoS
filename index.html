@@ -137,6 +137,84 @@
 
         </div>
 
+</div>     
+<!-- Modal de depósitos -->
+<div id="modalDepositos" class="modal">
+
+    <div class="modal-contenido">
+
+        <span id="cerrarDepositos">&times;</span>
+
+        <h2>Depósitos</h2>
+
+        <label for="tarjeta1">Número de tarjeta</label>
+        <input
+            type="text"
+            id="tarjeta1"
+            placeholder="Ingresa el número de tarjeta"
+            inputmode="numeric"
+            autocomplete="off"
+        >
+
+        <label for="tarjeta2">Confirmar número de tarjeta</label>
+        <input
+            type="text"
+            id="tarjeta2"
+            placeholder="Repite el número de tarjeta"
+            inputmode="numeric"
+            autocomplete="off"
+        >
+
+        <button type="button" id="confirmarDeposito">
+            Confirmar
+        </button>
+
+        <p id="mensajeDeposito"></p>
+
+    </div>
+
+</div>
+
+<!-- Segundo modal: cantidad del depósito -->
+<div id="modalCantidad" class="modal">
+
+    <div class="modal-contenido">
+
+        <span id="cerrarCantidad">&times;</span>
+
+        <h2>Cantidad del depósito</h2>
+
+        <label for="montoDeposito">Monto a depositar</label>
+        <input
+            type="number"
+            id="montoDeposito"
+            placeholder="$0.00"
+            min="0.01"
+            step="0.01"
+        >
+
+        <div class="resumenDeposito">
+            <p>Depósito: <strong id="importeDeposito">$0.00</strong></p>
+            <p>Comisión: <strong>$12.00</strong></p>
+            <hr>
+            <h3>
+                Total a pagar:
+                <span id="totalDeposito">$12.00</span>
+            </h3>
+        </div>
+
+        <button type="button" id="confirmarCantidad">
+            Confirmar depósito
+        </button>
+
+        <p id="mensajeCantidad"></p>
+
+    </div>
+
+</div>
+
+
+
 </body>
 
 </html>

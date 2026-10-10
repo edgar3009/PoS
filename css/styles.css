@@ -365,3 +365,136 @@ h4 {
     font-size: 25px;
 
 }
+
+
+/* Formulario del modal de depósitos */
+#modalDepositos .modal-contenido {
+    position: relative;
+    max-width: 420px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#modalDepositos h2 {
+    color: #d71920;
+    margin-bottom: 25px;
+}
+
+#cerrarDepositos {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#modalDepositos label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+#modalDepositos input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#confirmarDeposito {
+    width: 100%;
+    margin-top: 22px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #d71920;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#confirmarDeposito:hover {
+    background-color: #b51218;
+}
+
+#mensajeDeposito {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+
+/* Segundo modal de depósito */
+#modalCantidad .modal-contenido {
+    position: relative;
+    max-width: 420px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#modalCantidad h2 {
+    color: #d71920;
+    margin-bottom: 24px;
+}
+
+#cerrarCantidad {
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#modalCantidad label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#modalCantidad input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.resumenDeposito {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.resumenDeposito p {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.resumenDeposito h3 {
+    color: #d71920;
+}
+
+#confirmarCantidad {
+    width: 100%;
+    margin-top: 15px;
+    padding: 13px;
+    background: #d71920;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#confirmarCantidad:hover {
+    background: #b51218;
+}
+v
